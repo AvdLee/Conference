@@ -1,0 +1,842 @@
+{
+    "eventName": "Appdevcon 2018",
+    "description": "Conference for app developers, by app developers",
+    "startDate": "2018-03-15T08:00:00Z",
+    "endDate": "2018-03-16T22:00:00Z",
+    "apiEndpoint": "https:\/\/api.egeniq.com",
+    "welcomeText": "The Egeniq team welcomes you to {{eventName}}!",
+    "pictureUrl": "http:\/\/api.egeniq.com\/conferenceapp\/appdevcon\/about.png",
+    "locations": {
+        "pa": {
+            "id": "pa",
+            "name": "Pathe Arena",
+            "latitude": 52.312323,
+            "longitude": 4.945778,
+            "rooms": {
+                "pa13": {
+                    "name": "Room 13",
+                    "beacons": [
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 4,
+                            "minor": 1
+                        },
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 4,
+                            "minor": 2
+                        }
+                    ]
+                },
+                "pa12": {
+                    "name": "Room 12",
+                    "beacons": [
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 5,
+                            "minor": 1
+                        },
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 5,
+                            "minor": 2
+                        }
+                    ]
+                },
+                "pa11": {
+                    "name": "Room 11",
+                    "beacons": [
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 6,
+                            "minor": 1
+                        },
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 6,
+                            "minor": 2
+                        }
+                    ]
+                },
+                "pa10": {
+                    "name": "Room 10"
+                },
+                "pa9": {
+                    "name": "Room 9"
+                }
+            }
+        },
+        "hi": {
+            "id": "hi",
+            "name": "Holiday Inn Arena Towers",
+            "latitude": 52.309683,
+            "longitude": 4.942261,
+            "rooms": {
+                "hi1": {
+                    "name": "Rembrandt 1"
+                },
+                "hi2": {
+                    "name": "Rembrandt 2",
+                    "beacons": [
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 1,
+                            "minor": 1
+                        },
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 1,
+                            "minor": 2
+                        }
+                    ]
+                },
+                "hi3": {
+                    "name": "Rembrandt 3",
+                    "beacons": [
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 2,
+                            "minor": 1
+                        },
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 2,
+                            "minor": 2
+                        }
+                    ]
+                },
+                "hi5": {
+                    "name": "Rembrandt 5",
+                    "beacons": [
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 3,
+                            "minor": 1
+                        },
+                        {
+                            "UUID": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+                            "major": 3,
+                            "minor": 2
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "tracks": {
+        "insp": {
+            "name": "Design & Inspiration (Room 13)",
+            "location": "pa",
+            "room": "pa13",
+            "date": "2018-03-16",
+            "sort": 5,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/design-inspiration\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "Building Better Software by Building Better Teams",
+                    "talkDescription": "Ash Furrow has years of experience in the open source community \u2013 as both a contributor and a maintainer \u2013 as well as within the iOS software industry. Come listen to him discuss the lessons he&#8217;s learned about building engineering teams. Building on a foundation of research into team dynamics and psychological safety, Ash describes best practices, common problems, and actionable advice for improving your team. This accessible talk focuses on how all individuals within a team influence that team&#8217;s culture and so is targeted at anyone working within any team (in a business or open source community).\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Ash Furrow"
+                        }
+                    ],
+                    "startDate": "2018-03-16T08:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Design & Inspiration (Room 13)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Learning A New Language \u2013 While Learning A New Language",
+                    "talkDescription": "It turns out there are a lot of things that are similar about learning a human language similar to one you already know and a computer language similar to one you already know. Some things being super-similar provides a huge leg up, but there are plenty of false friends in both types of language, and there are plenty of differences which make you wonder why you ever thought these things were similar in the first place. This is a tale of the triumphs and perils (and eerie similarities) of learning Dutch as a native English speaker and Kotlin as a developer with a good grip on Swift.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Ellen Shapiro"
+                        }
+                    ],
+                    "startDate": "2018-03-16T08:50:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Design & Inspiration (Room 13)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Tools that give you Super Powers",
+                    "talkDescription": "Any sufficiently advanced technology is indistinguishable from magic. The reality of the 10x developer myth is just that &#8211; it\u2019s just developers who master their environment. The truth is we can become massively more productive by using what\u2019s readily available and merely a few google searches away.\nIn this talk you will learn how to become a better developer by mastering our development environment and the universe of tools at our disposal. From the hidden depths of the IDEs and build tools to the wide open fields of awesome open source utilities and services that border on magical.\nHow well do You know your tools?\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Zan Markan"
+                        }
+                    ],
+                    "startDate": "2018-03-16T09:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Design & Inspiration (Room 13)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Boost your app with Machine Learning APIs",
+                    "talkDescription": "What about making your app smarter without any knowledge in AI? Thanks to pre-trained models, Machine Learning APIs can automatically analyze your data. In this session, you\u2019ll see how to transform or extract information from text, image, audio &#038; video, and you\u2019ll be an active player of a live demo.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Laurent Picard"
+                        }
+                    ],
+                    "startDate": "2018-03-16T10:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Design & Inspiration (Room 13)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "If we can build for astronauts, we can build for everybody",
+                    "talkDescription": "Perhaps the title could be shorten up a little bit ;-). The ultimate objective of this talk is to enlighten and show that we need to build apps by thinking all the possible users with a special emphasis on Accessibility. If my app is usable, it doesn&#8217;t necessary means it is accessible.\nBuild an app for users and not for me, think out of your box! I will go through different processes we used when thinking of an app for astronauts\nA walk through on how to integrate Design thinking into building an app, by thinking of all the possible pain-points and challenges that the world out there could reserve for us. A parallel and practical tips on how to create an accessible app.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Panayotis Tzinis"
+                        }
+                    ],
+                    "startDate": "2018-03-16T11:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Design & Inspiration (Room 13)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Beyond Smartphone screen \u2013 scalable app design to support tablets and Chromebooks",
+                    "talkDescription": "Android Tablets are making a comeback in form of Chromebooks. Scalable design matters now more than ever before!  How to make your app\u2019s layouts and designs scale up to large, and resizable, screens?  In this talk we mention approaches we have found working in our projects as designer &#8211; developer and how we reached to the solutions we did.  After this talk you should have a toolkit you can apply in your projects to bring your apps to Chromebooks from both, design and technical, point of view and how to work together to bring your scalable layouts into reality. \n",
+                    "speakers": [
+                        {
+                            "speakerName": "Juhani Lehtim\u00e4ki"
+                        },
+                        {
+                            "speakerName": "Pierluigi Rufo"
+                        }
+                    ],
+                    "startDate": "2018-03-16T12:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Design & Inspiration (Room 13)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Updating your app, the insane way",
+                    "talkDescription": "How do you convince 1.5 million to switch to an app when it is not even finished? We decided to rebuild our iOS and Android apps from scratch and put them in the store next to our old app. This not only provided us with some technical challenges but also allowed us the opportunity to take an extreme approach to testing: We let our users use a live but incomplete app.\nI would love to tell you how and why we did this and what our experience is with this kind of approach. I will also give you a sneak peek into our architecture and how it allows us to build native but flexible apps.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Roel Spruit"
+                        }
+                    ],
+                    "startDate": "2018-03-16T13:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Design & Inspiration (Room 13)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Living Smarter Not Harder: Building Mobile Products The Happy Way",
+                    "talkDescription": "In a world full of hustle and work harder, we at Buffer are trying to go at it in a different way. In this talk I would love cover what it means to lead a remote Mobile Team from idea to product reality. What challenges we found on the way and what things we are learning while approaching this whole process in a happy way. \n",
+                    "speakers": [
+                        {
+                            "speakerName": "Marcus Wermuth"
+                        }
+                    ],
+                    "startDate": "2018-03-16T14:40:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Design & Inspiration (Room 13)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Getting Started with Failure",
+                    "talkDescription": "Sebastiaan de With is an ex-Apple designer with many projects under his belt. To close out Appdevcon, he will walk you through an inspirational series of mistakes and failures that defined his life and career and how they helped inform the design process of his latest app, Halide. From the early Mac OS X and iOS scene, to working with Steve Jobs and beyond, this talk requires no prior knowledge or experience in design, but a healthy appetite for stories and inspiration helps. \n",
+                    "speakers": [
+                        {
+                            "speakerName": "Sebastiaan de With"
+                        }
+                    ],
+                    "startDate": "2018-03-16T15:40:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Design & Inspiration (Room 13)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "arch": {
+            "name": "Architecture (Room 12)",
+            "location": "pa",
+            "room": "pa12",
+            "date": "2018-03-16",
+            "sort": 6,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/architecture\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "MVC VS MVP VS MVVM",
+                    "talkDescription": "Choice between those patterns is constant subject of discussions and fights. In the same time anyone perceives them differently. Is there any way out of this ideological problems? Let&#8217;s talk about MVC, MVP, MVVM and MVI pragmatically. Let&#8217;s answer &#8220;Why?&#8221; and &#8220;What are the consequences?&#8221;.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Marcin Moska\u0142a"
+                        }
+                    ],
+                    "startDate": "2018-03-16T08:50:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Architecture (Room 12)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "A Tale of Two Platforms: Keeping Android & iOS in Sync",
+                    "talkDescription": "Over the last 4 years, Impraise&#8217;s mobile applications have grown with various updates, refactoring and feature changes.\nWhile being a young startup allowed us to &#8220;move fast and break things&#8221;, we are now at a stage where we are investing on testing, stability and future proof implementations.\nLast year, we  evaluated the pros and cons of various architectures &#038; frameworks, for both our Android and iOS applications.\nOur goal was to find an Architecture:\n&#8211; Easily testable and maintainable\n&#8211; Easily adaptable to Android and iOS\n&#8211; Adoptable without massive refactoring needed\n&#8211; With an unidirectional flow of events\nWe adopted `Clean Swift` as a base for our iOS architecture, and adapted it to Android. In this talk, we will show the similarities and differences of our implementations, as well as their advantages and drawbacks.\nWe also built two Android Studio Templates in order to limit the amount of boilerplate code that we write and we are currently working on open-sourcing them. (Should be open-source by the date of the conference)\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Arnaud Camus"
+                        },
+                        {
+                            "speakerName": "Guilherme Branco"
+                        }
+                    ],
+                    "startDate": "2018-03-16T10:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Architecture (Room 12)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Building apps at scale",
+                    "talkDescription": "You\u2019ve built and launched an app with a handful of engineers. It\u2019s a success! So the app grows. And the team grows. Bugs seem to be more frequent. It\u2019s starting to get harder to modify the code. What is happening? And how do we fix it?\nAt Uber, we\u2019ve been through this journey, growing from one mobile developer to hundreds. In this talk we\u2019ll share the history of how the app grew and came to a breaking point, how and why we decided to start anew, why we chose to create a new mobile architecture on the way and how it\u2019s worked out for us. We will share our approach to making app development scale to very large apps and teams and what smaller teams can also take from this.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Gergely Orosz"
+                        }
+                    ],
+                    "startDate": "2018-03-16T11:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Architecture (Room 12)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "future": {
+            "name": "Future of Apps (Room 12)",
+            "location": "pa",
+            "room": "pa12",
+            "date": "2018-03-16",
+            "sort": 7,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/future\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "Control your voice like a Bene Gesserit",
+                    "talkDescription": "I will introduce you to the wonderful world of Voice User Interfaces. I will start with a brief introduction to Alexa Skills and Google Home Actions and how to write one of them. Then I will explain best practices for the architecture and its benefits.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Jorge D. Ortiz Fuentes"
+                        }
+                    ],
+                    "startDate": "2018-03-16T12:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Future of Apps (Room 12)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "The Power of Blockchain",
+                    "talkDescription": "We are going to demonstrate how you easy it is to make an application that can be trusted by anyone by leveraging the Power of Blockchain. We will create a game where *cheating is impossible*. The game is a live guessing game. Anyone can set a challenge consisting of a question, its answer, and maybe even prize money. The first person to give the correct answer wins that challenge, and takes away the prize money.\nThe game consists of a web based UI, and a smart contract on the Ethereum blockchain where you would normally find the backend. This smart contract ensures that *not even us* can cheat the game.\nWe won\u2019t bore you with powerpoint bullet lists from hell, nor will we simply use handwaving to explain the concepts. We will go on stage and *actually program* the game during this session. We\u2019ll show you that especially in immature development environments you can rely on good coding practices such as Test Driven Development and Pair Programming.\nWe intend for you to walk away from this session not only knowing how to start developing a Blockchain app, but also wanting to!\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Mark Spanbroek"
+                        },
+                        {
+                            "speakerName": "Stefan van den Oord"
+                        }
+                    ],
+                    "startDate": "2018-03-16T13:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Future of Apps (Room 12)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Learning how to play the guitar with Actions on Google",
+                    "talkDescription": "Actions on Google is a fascinating platform that allows us to create conversational experiences. These experiences can cater for many use cases, allowing us to build conversation tools using both audio and visual means &#8211; allowing us to create interactions which are accessible to many users with different needs.\nIn this session we\u2019ll be exploring the Actions on Google platform, the components available to use in the Actions SDK and and how we can use API.ai to learn how we can create a conversational guitar tutor for Google Actions.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Joe Birch"
+                        }
+                    ],
+                    "startDate": "2018-03-16T14:40:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Future of Apps (Room 12)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "appletech": {
+            "name": "Apple Tech (Room 11)",
+            "location": "pa",
+            "room": "pa11",
+            "date": "2018-03-16",
+            "sort": 8,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/appletech\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "How to debug like a pro",
+                    "talkDescription": "If your idea of debugging is breakpoints and print() calls, this session will help show you more advanced techniques to catch bugs faster. You&#8217;ll learn about watch points, assertions, conditional breakpoints, and more \u2013 all with the goal of helping you find and fix bugs faster.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Paul Hudson"
+                        }
+                    ],
+                    "startDate": "2018-03-16T08:50:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Apple Tech (Room 11)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Option(al) Is Not A Failure",
+                    "talkDescription": "Swift introduced Optionals on day one, but some of us are still getting used to them. Used appropriately they can be very useful \u2013 but they can also be abused!\nSwift 1 didn\u2019t have a cohesive error handling strategy. Exception-like features were introduced with Swift 2, but remain widely misunderstood.\nShould you use Optionals for errors, or do-catch, or something else? Or not bother at all and rely on Bad Things never happening?\nHow can we make sense of all this when, really, we just want to focus our efforts on getting everything to *work*, not worry about optimising for failures?\nThis talk digs into what Swift really has to offer and shows it can all be much simpler than we\u2019re making out \u2013 and even fun!\nWhether you\u2019re just starting out with Swift, or you\u2019re a seasoned veteran, there will be something for everyone in this talk.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Phil Nash"
+                        }
+                    ],
+                    "startDate": "2018-03-16T10:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Apple Tech (Room 11)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Ogres, onions and layers \u2013 story about tests at scale",
+                    "talkDescription": "We want to take you on the journey. Journey through different layers of tests in an iOS app that\u2019s used by more than half million unique users per month. Get to know the way we test it, step by step, layer by layer. We start with advanced code static analysis, continue with mutation, snapshot and functional tests. We carry on with continuous delivery, A\/B tests and usability tests.  We want to share with you which tools we are using and what testing practices we believe in. This is a true story driven by problems we experience at work, presented from tester\u2019s and developer\u2019s perspective.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Aleksander Grzyb"
+                        },
+                        {
+                            "speakerName": "Ewa Ludwiczak"
+                        }
+                    ],
+                    "startDate": "2018-03-16T11:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Apple Tech (Room 11)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "How to create a sustainable codebase?",
+                    "talkDescription": "Within projects you often don\u2019t have the time to write tests \u2013 or at least that\u2019s what you think. Refactoring turns out to be hard as you can\u2019t validate your code, and your new code turns out to be quite buggy. Fixing those bugs costs even more time. Creating a sustainable codebase with tests prevents this and doesn\u2019t need to eat up lots of time. I\u2019ll be sharing learnings from more than eight years of iOS development experience and banging the drum for sustainability.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Antoine van der Lee"
+                        }
+                    ],
+                    "startDate": "2018-03-16T12:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Apple Tech (Room 11)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Building Apps for Everyone",
+                    "talkDescription": "It is the moment you have been working so hard for. You press the \u2018Submit\u2019 button. Your app is now on its way to the App Store. In just a few days, your app is going to be available globally. But\u2026 is it really?  \nAny developer of an app with an aim of reaching a global audience needs to localise the app (most of us do that), but also to make it accessible! It is a team effort and everyone, from Developers to UX Designers or Product Managers, need to be involved, and therefore, to know its basics. In this talk we will try to provide a few techniques for improving those two areas of your apps from the points of view of the code, the use of tools we have available and the users\u2019 expected experience.\nA series of examples will be presented, showing how some of your users may perceive your app when localisation and accessibility are not correctly implemented or not implemented at all. \nYou would freak out if the \u2018Back\u2019 button was on the right side of the navigation bar, but that is what users that speak right-to-left written languages expect. If a modal view was presented without a \u2018Close\/Done\u2019 button, you would consider it a bug, but it may exactly be what you are giving to blind users.\nSmartphones, apps and the whole Apple ecosystem has helped us develop much more inclusive apps that anyone can use. But we can do better by building apps for everyone.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Daniel Devesa Derksen-Staats"
+                        }
+                    ],
+                    "startDate": "2018-03-16T13:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Apple Tech (Room 11)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Applicatives \u2013 The Forgotten Middle Child",
+                    "talkDescription": "This is not just another talk on Monads and Functors. We\u2019ll begin with examples of higher order functions and focus on map and flatMap in Swift. But there\u2019s something between a functor and a monad that is more powerful than a functor and more flexible than a monad. We\u2019ll look at Applicatives and try to understand their place in the world of functional programming. You will definitely come away with something you\u2019re going to want to use in your code.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Daniel Steinberg"
+                        }
+                    ],
+                    "startDate": "2018-03-16T14:20:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Apple Tech (Room 11)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "googletech": {
+            "name": "Google Tech (Room 10)",
+            "location": "pa",
+            "room": "pa10",
+            "date": "2018-03-16",
+            "sort": 9,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/googletech\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "Android Developer Options Deep Dive",
+                    "talkDescription": "Testing an app on your new Pixel 2 device under perfect network conditions works great, but you&#8217;re getting reports of strange behavior from the wild and weird crashes that you can&#8217;t reproduce. This talk will walk through some of the more complex options on the Developer Options screen in the Android OS and discuss how a developer can use them to debug problems in their application. Topics covered include: showing surface updates to help you find layout loops in your app, showing layout bounds to get your views pixel perfect, and aggressively killing processes and activities to ensure that your app performs well under stress. We&#8217;ll cover these options and more as we dive deep into debugging apps.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Andrea Falcone"
+                        }
+                    ],
+                    "startDate": "2018-03-16T08:50:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Google Tech (Room 10)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "The Android architecture re-evolution: ViewModel & LiveData",
+                    "talkDescription": "Explore the evolution of Android architectures applied to real apps. Discover how we adopted the new Android Architecture Components to build the Rijksmuseum tours app and solve in an elegant way common Android lifecycle issues.\nAfter this session, you will have new powerful tools to build complex UIs and the knowledge to decide when it&#8217;s best to apply them.\nYou will also understand the differences between architectures, their limitations and the contrast with a couple of RxJava solutions.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Sebastian Lobato Genco"
+                        }
+                    ],
+                    "startDate": "2018-03-16T10:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Google Tech (Room 10)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "System.loadLibrary(\u201cUnix, Native Code and why bother\u201d)",
+                    "talkDescription": "You&#8217;ve decided to use a native library bundled in with your application, but everything behind the runtime loading method call remains a mystery.\nIn this talk we&#8217;ll go through what libraries really are, the difference between static and dynamic loading, the Unix linker and how that&#8217;s important.\nThe &#8216;first act&#8217; is platform independent, focusing on Unix&#8217;s workings, from syscalls to environment variables &#8211; serving both Linux, Mac, iOS and Android fans.\nThen, we&#8217;ll focus a bit on Android &#8211; the history of the platform and its relation to native code loading, plus even diving into Android&#8217;s source code!\nFinally, we&#8217;ll go through some other practical tips and also learn about ABIs, and the different processor architectures.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Julio Zynger"
+                        }
+                    ],
+                    "startDate": "2018-03-16T11:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Google Tech (Room 10)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "How to test your Android Things code in a clean way with Kotlin",
+                    "talkDescription": "Android things gives you the ability to connect all those Internet of things devices you have around all together. But how can you test it?\nIn this talk you will learn in a practical way how to structure your Android Things project so you can write proper unit tests that don\u2019t depend on your sensors, actuators or the Android framework.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "James Coggan"
+                        }
+                    ],
+                    "startDate": "2018-03-16T12:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Google Tech (Room 10)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Brace yourself with Android Architecture Components",
+                    "talkDescription": "Writing robust Android apps can be challenging, Have you ever experienced complex lifecycle issues, unreliable mobile networks, and constrained device capabilities? These areas are  very &#8220;touchy&#8221;, because a little oversight can easily lead to memory leaks, crashing your app, drained batteries, and.. unhappy users. During last I\/O, Google introduced new libraries for Android to allow developers to build stronger apps. This session will drive you with code examples to a new (and.. better..) Android app architectural approach, including an overview of functionalities that will make these problems dramatically easier to solve.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Michelantonio Trizio"
+                        }
+                    ],
+                    "startDate": "2018-03-16T13:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Google Tech (Room 10)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Aww! Artefactories what and why",
+                    "talkDescription": "AWW, talks about best practices to enable scaling for android applications using artifactories with\n->multi-modular approach\n->faster build times\n->proportioned abstraction\n->versioning of internal libraries\n-> easy open source mechanism.\nThis talk will include integration for JFrog Artifactory\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Renu Yadav"
+                        }
+                    ],
+                    "startDate": "2018-03-16T14:40:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Google Tech (Room 10)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "multiplatform": {
+            "name": "Multi Platform (Room 9)",
+            "location": "pa",
+            "room": "pa9",
+            "date": "2018-03-16",
+            "sort": 10,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/multiplatform\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "Creating a Flutter App",
+                    "talkDescription": "Is Flutter the next big thing in creating multi platform apps, Google seems to think so. Let\u2019s see if the Flutter lets us create apps for Android and IOS and can keep up with Native apps. \nSo lets dive in too what Flutter is how it and why it works. And see how easy it to create an app.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Dylan Drost"
+                        }
+                    ],
+                    "startDate": "2018-03-16T08:50:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Multi Platform (Room 9)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "React Native: Buy one get one free?!",
+                    "talkDescription": "Nobody likes writing the same code twice, it\u2019s tedious, error prone and just not that fun to do. Sadly this still happens a lot when developing a app for iOS and Android. In this session you\u2019ll learn how you can leverage the power of React Native to share code on both platforms.\nWe have done 3 projects in React Native (for Radio 538, De Persgroep and Stockon), all with a different approach and architecture. I\u2019ll share the things we considered when choosing React Native, what architectures we used and what impact React Native has on your team.\nAfter this talk you will know if React Native is a good fit for your (future) project and what architecture you might want to use. I assume you have mobile development experience for Android or iOS, you don\u2019t need to have React (Native) experience.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Thijs Suijten"
+                        }
+                    ],
+                    "startDate": "2018-03-16T10:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Multi Platform (Room 9)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Awesome Native Apps with NativeScript",
+                    "talkDescription": "Developing native iOS (and Android apps) can be very time consuming and expensive.\nWhat if you could build native apps with one code base and web techniques? Well, you can with NativeScript!\nIn this introduction, I\u2019ll explain what NativeScript is and how it compares to other platforms. And in a live demo, I will show you how easy it is to get started and to make use of native capabilities.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Rowdy Rabouw"
+                        }
+                    ],
+                    "startDate": "2018-03-16T11:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Multi Platform (Room 9)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "backends": {
+            "name": "Backends (Room 9)",
+            "location": "pa",
+            "room": "pa9",
+            "date": "2018-03-16",
+            "sort": 11,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/backends\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "Full-stack Swift development",
+                    "talkDescription": "Developing an app is a complex task focussed on design and UX. Often, a lot of logic is centralised between multiple users in a backend for simplicity and maintainability. This often leads to complexity and a maintenance burden instead. This session will learn you how to develop your app and backend in the same language, limiting the time spent on backend and maximising your efforts for your customers with use of the Vapor web framework.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Joannis Orlandos"
+                        }
+                    ],
+                    "startDate": "2018-03-16T12:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Backends (Room 9)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Building Mobile Apps, APIs, and Chatbots on AWS",
+                    "talkDescription": "This talk dives into creating a mobile application using AWS Mobile Hub, building a simple vehicle value chatbot using Amazon Lex, and integrating the chatbot into the mobile app generated by Mobile Hub. While walking through this live demo, we\u2019ll discuss the latest serverless implementations in the cloud, and how create a secure, scalable API backend for mobile developers. All attendees should walk away empowered to build cloud-enabled apps and understand what tools are needed to scale their next app to millions of users.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Dennis Hills"
+                        }
+                    ],
+                    "startDate": "2018-03-16T13:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Backends (Room 9)"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Why should I care about serverless?",
+                    "talkDescription": "Creating awesome apps for any device is just one of the things you have to worry about as an app developer.\nYou will probably have to communicate with some kind of backend system in order to fetch or update data. This backend should be an important part of your overall app design, but you don&#8217;t want to spend too much time on it.\nThat&#8217;s where serverless solutions come in to play!\nWith serverless solutions you can quickly create event-driven backend systems which integrate perfectly in your apps. You don&#8217;t have to worry about servers, configuration and all of that other system administrator stuff anymore. Just create your logic and deploy!\nDuring this session I&#8217;ll talk about the concepts of these serverless systems with a focus on Azure Functions. I&#8217;ll tell you why you should care about them and how it can help you design a modern solution architecture.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Jan de Vries"
+                        }
+                    ],
+                    "startDate": "2018-03-16T14:40:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Backends (Room 9)"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tutorials1": {
+            "name": "Rembrandt 1",
+            "location": "hi",
+            "room": "hi1",
+            "date": "2018-03-15",
+            "sort": 1,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/rembrandt1\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "Run your own Google Design Sprint",
+                    "talkDescription": "A Design Sprint (developed by GV, formerly Google Ventures) tackles bottle-necks and challenges that your product, app or service could face, by using an immersive and speedup Design Thinking.\nThe Design Sprint gives you a superpower: You can project your app into the future to see your finished product and customer reactions, before making any unnecessary commitments. During the tutorial Panayotis Tzinis and Wiebe Elsinga (Both Google Developers Expert in Product Design) will explain the steps of a Design Sprint by example, showing you what it takes to run your own.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Panayotis Tzinis"
+                        },
+                        {
+                            "speakerName": "Wiebe Elsinga"
+                        }
+                    ],
+                    "startDate": "2018-03-15T08:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Rembrandt 1"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tutorials2": {
+            "name": "Rembrandt 2",
+            "location": "hi",
+            "room": "hi2",
+            "date": "2018-03-15",
+            "sort": 2,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/rembrandt2\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "Full-stack Swift development",
+                    "talkDescription": "Developing an app is a complex task focussed on design and UX. Often, a lot of logic is centralised between multiple users in a backend for simplicity and maintainability. This often leads to complexity and a maintenance burden instead. This session will learn you how to develop your app and backend in the same language, limiting the time spent on backend and maximising your efforts for your customers with use of the Vapor web framework.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Joannis Orlandos"
+                        }
+                    ],
+                    "startDate": "2018-03-15T08:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Rembrandt 2"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Build Serverless Backends and APIs using Swift and Apache OpenWhisk",
+                    "talkDescription": "Do you want to build backend applications using Swift but don&#8217;t want to manage computing infrastructure to run those applications in the cloud? Enter serverless cloud platforms\u2026 \nServerless platforms allow developers to push code, rather than VMs, into the cloud. The platforms allow you to connect external event sources like API requests or message queues to functions in your code. As events occur, your code is instantiated and executed to process each request. Developers are only billed for the milliseconds needed to process each request.\nIn this workshop, developers will learn how to build backends and APIs using Swift on \u201cserverless\u201d cloud platforms. We&#8217;ll work through getting started with Apache OpenWhisk, an open-source serverless cloud platform that supports Swift natively. Developers will learn how to create simple serverless swift functions, before building up to more complicated applications and architectures. People leaving the session will have all the skills to be able to build scalable microservices on serverless cloud platforms using Swift.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "James Thomas"
+                        }
+                    ],
+                    "startDate": "2018-03-15T12:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Rembrandt 2"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tutorials3": {
+            "name": "Rembrandt 3",
+            "location": "hi",
+            "room": "hi3",
+            "date": "2018-03-15",
+            "sort": 3,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/rembrandt3\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "Kotlin 101",
+                    "talkDescription": "Always wanted to try Kotlin, but never had a chance?\nThen this tutorial is your opportunity to get an introduction to and get hands-on experience with Kotlin.\nThis tutorial will cover the basics to build an simple Android app with Kotlin.\nPrerequisites: Knowledge of Android development with Android Studio\n",
+                    "speakers": [
+                        {
+                            "speakerName": "\u00d6zcan Kaymak"
+                        },
+                        {
+                            "speakerName": "Ruben Weerts"
+                        }
+                    ],
+                    "startDate": "2018-03-15T08:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Rembrandt 3"
+                        }
+                    ]
+                },
+                {
+                    "talkTitle": "Continuous Integration with Jenkins",
+                    "talkDescription": "A half day with an introduction to Continuous Integration and the basics on how to install and implement the basic for both iOS and Android with Jenkins.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Jorge D. Ortiz Fuentes"
+                        }
+                    ],
+                    "startDate": "2018-03-15T12:30:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Rembrandt 3"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tutorials4": {
+            "name": "Rembrandt 5",
+            "location": "hi",
+            "room": "hi5",
+            "date": "2018-03-15",
+            "sort": 4,
+            "feed": "http:\/\/appdevcon.nl\/session-category\/rembrandt5\/feed",
+            "sessions": [
+                {
+                    "talkTitle": "Advanced Swift",
+                    "talkDescription": "Functional programming, lazy variables, pattern matching, and protocol-oriented programming \u2013 these are just some of the things that make up the toolkit of expert Swift developers and help deliver great code faster. This workshop will cover all of those and much more, helping you take your existing Swift skills further.\n",
+                    "speakers": [
+                        {
+                            "speakerName": "Paul Hudson"
+                        }
+                    ],
+                    "startDate": "2018-03-15T08:00:00Z",
+                    "tracks": [
+                        {
+                            "trackName": "Rembrandt 5"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "practicalInfo": "\ufeff<b>About mdevcon<\/b> <br\/>\n<br\/>\nThe conference is by mobile developers, for mobile developers. \nWe have two days with multiple tracks, designed in such a way that \nwhether you\u2019re an android, iOS or other mobile platform developer, \nthere\u2019s always at least one session that should be of interest. \nThe schedule contains many industry experts and can be found <a href=\"app:\/\/schedule\">here<\/a>. \nThe venue is epic, it\u2019s the 1920\u2032s classic Tuschinski Theater in Amsterdam. \nWe expect around 275 attendees. <br\/>\n<br\/>\n<b>Target audience<\/b> <br\/>\n<br\/>\nMdevcon is targeted at developers working with mobile technology. \nThere will be talks targeted at a specific platform and talks of a \nmore platform independent nature. We welcome independent developers, \nfreelancers and developers working for a company \u2013 It doesn\u2019t matter \nwho you are or where you work, if you work with mobile technology \nyou\u2019ll enjoy this conference. <br\/>\n<br\/>\n<b>Conference Code of Conduct<\/b><br\/>\nWe have adopted a code of conduct that helps us make the conference a welcome and safe place for everyone. \nYou can find the <a href=\"http:\/\/mdevcon.com\/conference-code-of-conduct\/\">code of conduct here<\/a>.\n<br\/>\n<b>Location<\/b><br\/>\n<br\/>\n<b>Tutorial day:<\/b> NH Carlton (near Rembrandt Plein) <br\/>\nVijzelstraat 4<br\/>\nAmsterdam <br\/>\n<br\/>\n<b>Conference day:<\/b> Tuschinski Theater (near Rembrandt Plein) <br\/>\nReguliersbreestraat 26 <br\/>\nAmsterdam <br\/>\n<br\/>\nThere\u2019s one place where a mobile developer conference makes perfect sense: <b>Appsterdam.<\/b> \nFounded by Mike Lee, appsterdam is a growing European community of app developers located \nin or near Amsterdam. Visit the <a href=\"http:\/\/appsterdam.rs\/\">Appsterdam website<\/a> for more information about this vibrant \ncommunity of developers or to become a member. The conference is open to a world wide \naudience and we hope it will be an opportunity for many developers to get a sense of \nthe great atmosphere in Appsterdam! <br\/>\n<br\/>\nAs for the venue, we looked hard to find a location that is easy to reach but also inspiring. \nThe conference will be held in the Tuschinski Theater. According to wikipedia it is \n\u2018considered one of the most beautiful cinemas in the world\u2019. This means that we\u2019ll not \nonly have presentations literally on the big screen, it means we\u2019ll have comfy chairs \nto enjoy the conference. We were also very interested in this venue because of its \nexcellent \u2018hallway track\u2019. This unofficial track in between or during sessions where you \nmeet other developers and speakers is just as valuable as the main content tracks, \nand Tuschinski is a great place to talk to people or to just hang out.\n"
+}
